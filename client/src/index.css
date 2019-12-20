@@ -88,7 +88,10 @@
 }
 .order_id_body{
     background: #ECECEC;
-    padding: 10px;
+    padding: 65px;
+    margin:auto;
+    text-align: center;
+    /* vertical-align: middle; */
 }
 .label_blue{
     color: #006CBF;
@@ -139,4 +142,12 @@
     margin-left: 20px;
     border-radius: initial;
     border: none;
+}
+
+.dispatch_status{
+    background: #f1f1f1;
+    color: #006CBF;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
 }

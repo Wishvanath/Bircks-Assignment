@@ -50,11 +50,12 @@ const Orders = () => {
                     </div>
                     <div className="col-sm-8 order_descp_body">
                             <label htmlFor="name">Name : {order.name}</label><br/>
-                            <label htmlFor="order_details">Order Details:</label>
-
+                            <label htmlFor="order_details">Order Details:</label> <br/>
+                            <label htmlFor="date">Date: {order.order_date}</label> <br/>
+                            <label >Status: <span className="dispatch_status">{order.order_status}</span></label>
                             <div className="row order_details_body">
                                 <div className="bricks_body">
-                                {order.no_of_bricks}
+                                {order.no_of_bricks} BRICKS
                                 </div>
                                 <div className="btn_edit_section">
                                     <button className="btn btn_edit">Edit</button>
@@ -71,71 +72,6 @@ const Orders = () => {
                     
                 </div>
                     ))}
-
-
-                    <div className="row mt-5">
-                        <div className="col-sm-4 order_id_body">
-                            <h3 className="label_blue">Order Id</h3>
-                            <p>ORD1234</p>
-                        </div>
-                        <div className="col-sm-8 order_descp_body">
-                                <label htmlFor="name">Name : Wishvanath Anand</label><br/>
-                                <label htmlFor="order_details">Order Details:</label>
-
-                                <div className="row order_details_body">
-                                    <div className="bricks_body">
-                                        234
-                                    </div>
-                                    <div className="btn_edit_section">
-                                        <button className="btn btn_edit">Edit</button>
-                                    </div>
-                                    <div className="btn_dispatch_section">
-                                        <button className="btn btn_dispatch">Dispatch</button>
-                                    </div>
-                                    <div className="btn_fulfil_section">
-                                        <button className="btn btn-success btn_fulfil">Fulfil</button>
-                                    </div>
-
-                                </div>
-                        </div>
-                        
-                    </div>
-
-
-
-
-
-
-
-
-                    {/* <div className="row mt-5">
-                        <div className="col-sm-4 order_id_body">
-                            <h3 className="label_blue">Order Id</h3>
-                            <p>ORD1234</p>
-                        </div>
-                        <div className="col-sm-8 order_descp_body">
-                                <label htmlFor="name">Name : Wishvanath Anand</label><br/>
-                                <label htmlFor="order_details">Order Details:</label>
-
-                                <div className="row order_details_body">
-                                    <div className="bricks_body">
-                                        234
-                                    </div>
-                                    <div className="btn_edit_section">
-                                        <button className="btn btn_edit">Edit</button>
-                                    </div>
-                                    <div className="btn_dispatch_section">
-                                        <button className="btn btn_dispatch">Dispatch</button>
-                                    </div>
-                                    <div className="btn_fulfil_section">
-                                        <button className="btn btn-success btn_fulfil">Fulfil</button>
-                                    </div>
-
-                                </div>
-                        </div>
-                        
-                    </div> */}
-
 
                     
                 </div>
