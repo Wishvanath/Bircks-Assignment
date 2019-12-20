@@ -1,13 +1,142 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* -------------------------
+    Home component Css
+------------------------------- */
+
+.logo_section img{
+    width: 20%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.order_form_wrapper{
+    margin: auto;
+    text-align: center;
+}
+.order_form{
+    margin-top: 30px;
+    width: 35%;
+    text-align: left;
+    display: inline-block;
+    padding: 40px;
+    border: 0.5px solid #006CBF;
+}
+.btn_blue{
+    background: #006CBF;
+    color: white;
+    border-radius: initial;
+    border: none;
+}
+.btn_blue:hover{
+    background: rgb(29, 125, 199);
+    cursor: pointer;
+}
+
+
+
+
+/* -------------------------
+    Login  component Css
+------------------------------- */
+
+.login_form_wrapper{
+    margin: auto;
+    text-align: center;
+}
+.login_form{
+    margin-top: 30px;
+    width: 35%;
+    text-align: left;
+    /* align-items: center; */
+    display: inline-block;
+    padding: 40px;
+    border: 0.5px solid #006CBF;
+}
+.login_logo img{
+    margin-top: 10px;
+    width: 8%;
+}
+
+
+
+/* -------------------------
+    Order  component Css
+------------------------------- */
+.search_bar_wrapper{
+    margin: auto;
+    text-align: center;
+}
+.search_bar_inner{
+    margin-top: 20px;
+    width: 60%;
+    background: #dde2e6;
+    display: inline-block;
+    padding: 10px;
+}
+.search_input{
+    margin-left: 10px;
+    height: 35px;
+    width: 60%;
+}
+.btn_black{
+    background: rgb(1, 6, 10);
+    color: white;
+    border-radius: initial;
+    border: none;
+    margin-top: -5px;
+}
+
+.customer_name{
+    color: #006CBF;
+}
+.order_id_body{
+    background: #ECECEC;
+    padding: 10px;
+}
+.label_blue{
+    color: #006CBF;
+}
+.order_descp_body{
+    padding: 10px 10px 10px 30px;
+    border: 0.5px solid #ECECEC;
+}
+
+.order_details_body{
+    padding-left: 30px;
+}
+.bricks_body{
+    background: #ECECEC;
+    color: #006CBF;
+    padding: 15px;
+    border-radius: 50%;
+    border: 2px solid #006CBF;
+    margin-right: 20%;
+}
+.btn_edit{
+    margin-top: 10px;
+    margin-left: 20px;
+    background: rgb(1, 6, 10);
+    color: white;
+    border-radius: initial;
+    border: none;
+}
+.btn_edit:hover{
+    color: white;
+    background: rgb(34, 34, 34);
+}
+.btn_dispatch{
+    margin-top: 10px;
+    margin-left: 20px;
+    background: #006CBF;
+    color: white;
+    border-radius: initial;
+    border: none;
+}
+.btn_dispatch:hover{
+    background: rgb(29, 125, 199);
+    cursor: pointer;
+    color: white;
+}
+.btn_fulfil{
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: initial;
+    border: none;
 }
