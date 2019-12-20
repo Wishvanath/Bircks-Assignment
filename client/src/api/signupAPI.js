@@ -41,6 +41,7 @@ export const signout = (next) => {
         })
         .then( res => {
             console.log("Signout", res)
+            res.json()
         })
         .catch(err => console.log(err))
     }

@@ -110,9 +110,9 @@ const Login = () => {
                 </div>
                 
                 {showLoading()}
-           {showError()}
-           {signInForm()}
-           {redirectUser()}
+                {showError()}
+                {signInForm()}
+                {redirectUser()}
             </div>
 
             {/* end of home body section */}
