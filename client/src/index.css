@@ -151,3 +151,11 @@
     padding: 10px;
     margin-bottom: 10px;
 }
+
+.alert_message{
+    width: 30%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 10%;
+}

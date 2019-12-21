@@ -40,18 +40,27 @@ const Home = () => {
     }
 
 
-// 
-const showError = () => (
-    <div className="alert alert-danger" style={{ display: error ? '' : 'none' }}>
-        {error}
-    </div>
-)
+    // 
+    const showError = () => (
+        // <div className="alert alert-danger" style={{ display: error ? '' : 'none' }}>
+        //     {error}
+        // </div>
+        <div class="alert alert-warning alert-dismissible fade show alert_message" role="alert" style={{ display: error ? '' : 'none' }}>
+            <strong>ERROR: </strong> {error}
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    )
 
 
 // 
 const showSuccess = () => (
-    <div className="alert alert-info" style={{ display: success ? '' : 'none' }}>
-        Order has created
+    <div className="alert alert-success alert-dismissible fade show alert_message" style={{ display: success ? '' : 'none' }}>
+        <strong>Sucessfully Placed your order ! </strong> {error}
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
     </div>
 ) 
 

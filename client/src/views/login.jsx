@@ -62,14 +62,20 @@ const Login = () => {
 
       // 
       const showError = () => (
-        <div className ="alert alert-danger" style={{display: error ? '' : 'none'}}>
-           {error}
+        // <div className ="alert alert-danger" style={{display: error ? '' : 'none'}}>
+        //    {error}
+        // </div>
+        <div class="alert alert-warning alert-dismissible fade show alert_message" role="alert" style={{ display: error ? '' : 'none' }}>
+            <strong>ERROR: </strong> {error}
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
         </div>
     )
  // 
  const showLoading = () => (
     loading && (
-        <div className= "alert alert-info">
+        <div className= "alert alert-info alert_message">
             <h2>Loading...</h2>
         </div>
     )

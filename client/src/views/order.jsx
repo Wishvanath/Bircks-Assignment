@@ -29,7 +29,7 @@ const Orders = () => {
         <div>
             <ANavbar />
             {/* search bar section */}
-        {JSON.stringify(orders)}
+        {/* {JSON.stringify(orders)} */}
             <div className="search_bar_wrapper">
                 <div className="search_bar_inner">
                    <label htmlFor="searchTag" className="customer_name">Customer Name</label>
@@ -64,7 +64,7 @@ const Orders = () => {
                                     <button className="btn btn_dispatch">Dispatch</button>
                                 </div>
                                 <div className="btn_fulfil_section">
-                                    <button className="btn btn-success btn_fulfil">Fulfil</button>
+                                    {/* <button className="btn btn-success btn_fulfil">Fulfil</button> */}
                                 </div>
 
                             </div>

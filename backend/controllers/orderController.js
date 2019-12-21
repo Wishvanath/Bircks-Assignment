@@ -48,13 +48,13 @@ exports.newOrders = (req, res) => {
     if(!no_of_bricks){
         return res.json({
             success: false,
-            message: "User Name is Empty"
+            message: "Number of Bricks are empty"
         })
     }
     if(!order_date){
         return res.json({
             success: false,
-            message: "User Name is Empty"
+            message: "Date is empty"
         })
     }
 
